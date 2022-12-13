@@ -1,0 +1,26 @@
+.contacts {
+  margin-bottom: 20px;
+}
+
+.contacts__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-type {
+  color: #0e2b54;
+  margin-right: 10px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contact__link {
+  color: #0e2b54;
+  opacity: 0.6;
+  &:hover,
+  &:focus {
+    color: #fb6d3a;
+  }
+}

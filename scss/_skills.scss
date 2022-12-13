@@ -1,0 +1,32 @@
+.tech-skills,
+.soft-skills,
+.language-skills {
+  margin-bottom: 20px;
+}
+
+.tech-skills__title,
+.soft-skills__title,
+.language-skills__title {
+  margin-bottom: 20px;
+}
+
+.tech-skills__list,
+.soft-skills__list,
+.language-skills__list {
+  list-style: disc;
+  padding: 0px;
+  margin-left: 20px;
+}
+
+.tech-skills__item,
+.soft-skills__item,
+.language-skills__item {
+  color: #fb6d3a;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.item--text {
+  color: #0e2b54;
+}

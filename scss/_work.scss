@@ -1,0 +1,47 @@
+.work {
+  margin-bottom: 10px;
+}
+
+.work__title {
+  margin-bottom: 10px;
+}
+
+.work__position {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #0e2b54;
+  margin-bottom: 10px;
+}
+
+.organisation {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fb6d3a;
+}
+
+.work__period {
+  color: #c7c7c8;
+  margin-bottom: 10px;
+}
+
+.work-list {
+  margin-bottom: 10px;
+}
+.resp {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.resp-item:not(:last-child) {
+  margin-bottom: 5px;
+  color: #595959;
+}
+
+.respa {
+  margin-top: 10px;
+}
+
+.work__item:not(:last-child) {
+  margin-bottom: 15px;
+}
