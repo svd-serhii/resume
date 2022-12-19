@@ -54,7 +54,7 @@ ol {
   padding-top: 20px;
 }
 
-.photo {
+.svd {
   display: block;
   width: 100%;
 }
@@ -73,7 +73,7 @@ ol {
   padding: 10px;
 }
 
-.img-container {
+.container {
   width: 370px;
   margin-bottom: 30px;
 }
@@ -234,7 +234,7 @@ ol {
   margin-bottom: 10px;
 }
 
-.organisation {
+.organization {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
