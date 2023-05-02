@@ -4,129 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700;800&family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
+
     <title>Resume Demchenko Serhii</title>
   </head>
   <body>
     <main class="main">
       <div class="content">
         <div class="about">
-          <h1 class="about__name">Serhii Demchenko</h1>
-          <p class="about__job">FrontEnd / FullStack Developer</p>
+          <h1 class="about__my-name">Serhii Demchenko</h1>
+          <p class="about__my-job">FullStack Developer</p>
         </div>
         <div class="wrap">
+          <!-- ABOUT ME -->
           <h2 class="summary__title title">Summary</h2>
           <p class="summary__description">
-            I'm FullStack Developer, looking for a full-time position in a company. I am focused on JS, React, HTML. I
-            have practical experience using Agile and Scrum methodology while working in commands projects at GOIT
-            Academy Fullstack Developer course. I am constantly working on improving my technical skills, and I want to
-            become a professional in front-end development. I'm responsible and loyal, learn quickly, value time. Ready
-            for challenges and interesting projects.
+            I'm a FullStack Developer looking for a full-time position in a company. My expertise lies in JS, React, and
+            Node.js, and I have hands-on experience working with Scrum methodology while handling team projects during
+            my time at the GoIT Fullstack Developer course. I am constantly improving my technical skills to become a
+            proficient fullstack developer. I am a responsible and dedicated individual who learns quickly and values
+            time. I am eager to take on challenges and work on exciting projects.
           </p>
-          <div class="projects">
-            <h2 class="projects__title title">Project Experience</h2>
+          <!-- PROJECTS -->
+          <div class="section--container">
+            <h2 class="section--title title">Project Experience</h2>
             <ul class="projects__list list">
               <li class="project-item">
-                <a href="https://svd-serhii.github.io/WebStudio/" target="_blank" class="project__link link"
-                  >WebStudio</a
+                <a href="https://svd-serhii.github.io/goit-react-hw-08-phonebook/" target="_blank" class="project__link link"
+                  >Phonebook</a
                 >
-                <p class="project__text">
-                  A website with adaptive layout. Using <span class="project-braket">[</span>HTML5, SASS
-                  <span class="project-braket">]</span>
-                </p>
+                <span>-</span>
+                <a href="https://github.com/svd-serhii/goit-react-hw-08-phonebook" target="_blank" class="project__link link"
+                  >Project Link</a
+                >
+                <span class="section--text">[REACT, REDUX, NPM, CSS, REST API, AJAX]</span>
+                <p class="section--text">This app allows users to register and store their contacts in a phonebook.</br> Individual project.</p>
+              </li>
+              <li class="project-item">
+                <a href="https://asyrotenko.github.io/filmoteka/" target="_blank" class="project__link link"
+                  >Filmoteka</a
+                >
+                <span>-</span>
+                <a href="https://github.com/ASyrotenko/filmoteka" target="_blank" class="project__link link"
+                  >Project Link</a
+                >
+                <span class="section--text">[JS, NPM, HTML5, SASS, REST API, AJAX]</span>
+                <p class="section--text">An application for searching movies with authorization through Google firebase. </br>Command project. Role: Developer.</p>
               </li>
               <li class="project-item">
                 <a
                   href="https://asyrotenko.github.io/command-project-html-css/"
                   target="_blank"
                   class="project__link link"
-                  >3D Freedom</a
+                  >3D FREEDOM</a
                 >
-                <p class="project__text">
-                  Command project - website of company with adaptive layout, modal window with submit form. Using
-                  <span class="project-braket">[</span>HTML5, SASS, JS, Parcel
-                  <span class="project-braket">]</span>
+                <span>-</span>
+                <a
+                  href="https://github.com/ASyrotenko/command-project-html-css"
+                  target="_blank"
+                  class="project__link link"
+                  >Project Link</a
+                >
+                <span class="section--text">[HTML5, SASS, CSS, JS, NPM]</span>
+                <p class="section--text">
+                  A website with an adaptive layout, modal window and submit form.</br> Command project. Role: Developer.
                 </p>
               </li>
               <li class="project-item">
-                <a href="https://svd-serhii.github.io/goit-js-hw-11/" target="_blank" class="project__link link"
-                  >Image search</a
+                <a href="https://svd-serhii.github.io/WebStudio/" target="_blank" class="project__link link"
+                  >WebStudio</a
                 >
-                <p class="project__text">
-                  Image search page. Using
-                  <span class="project-braket">[</span>JS, Parcel, HTML5, SASS, http request - Axios, API - Pixabay
-                  <span class="project-braket">]</span>
-                </p>
+                <span>-</span>
+                <a href="https://github.com/svd-serhii/WebStudio" target="_blank" class="project__link link"
+                  >Project Link</a
+                >
+                <span class="section--text">[HTML5, SASS, CSS]</span>
+                <p class="section--text">A website with an adaptive layout.</br> Individual project.</p>
               </li>
             </ul>
           </div>
-          <div class="work">
-            <h2 class="work__title title">Work Experience</h2>
+          <!-- WORK EXPERIENCE -->
+          <div class="section--container">
+            <h2 class="section--title title">Work Experience</h2>
             <ul class="work__list list">
               <li class="work__item">
-                <p class="work__position">
-                  Deputy Head of Division <span class="organization">Credit-Agricole Ukraine</span>
-                </p>
-                <p class="work__period">April 2017 - up to now</p>
-                <ul class="list">
-                  <p class="resp">Responsibilities:</p>
-                  <li class="resp-item">Team Lead;</li>
+                <p class="section--subtitle">Deputy Head of Division</p>
+                <p class="section--text work-place">Credit-Agricole Ukraine <span>|</span>April 2017 - up to now</p>
+                <ul class="resp list">
+                  <li class="resp-item">I manage a team of 10 people;</li>
                   <li class="resp-item">Fulfillment of sales targets;</li>
                   <li class="resp-item">Implementation of new quality standards for the car loan process;</li>
-                  <li class="resp-item">Development of marketing activities;</li>
-                </ul>
-                <ul class="list">
-                  <p class="resp respa">Achievements:</p>
-                  <li class="resp-item">Increase active partners almost twice (from 170 to 400);</li>
+                  </ul>
+                  <ul class="list">
+                  <li class="resp-item"> <span class="achive">Achievements:</span> Increase active partners almost twice (from 170 to 400);</li>
                   <li class="resp-item">
-                    Annual increase of active clients of car loans (each year from 2017 to 2021) ;
+                    The number of active car loans customers has increased (each year from 2017) ;
                   </li>
                 </ul>
               </li>
               <li class="work__item">
-                <p class="work__position">Regional Manager <span class="organisation">Credit-Agricole Ukraine</span></p>
-                <p class="work__period">April 2011 - April 2017</p>
-                <ul class="list">
-                  <p class="resp">Responsibilities:</p>
-                  <li class="resp-item">Fulfillment of sales targets;</li>
+                <p class="section--subtitle">Regional Manager</p>
+                <p class="section--text work-place">Credit-Agricole Ukraine <span>|</span>April 2011 - April 2017</p>
+                <ul class="resp list">
                   <li class="resp-item">Establishing a centralized work process through the Bank's partners;</li>
-                  <li class="resp-item">Training of bank staff and staff of partners;</li>
-                  <li class="resp-item">
-                    Development of a bank product line - car loan programs with Automotive Distributors such as Renault
-                    Finance, Mazda Finance, Toyota Credit and etc;
-                  </li>
+                  <li class="resp-item">Development of a bank product line - car loan programs with Automotive Distributors such as Renault
+                    Finance, Mazda Finance, Toyota Credit,etc;</li>
                   <li class="resp-item">Promotion of programs throughout Ukraine;</li>
-                </ul>
-                <ul class="list">
-                  <p class="resp respa">Achievements:</p>
-                  <li class="resp-item">The Best Car Loan Bank of Ukraine;</li>
-                  <li class="resp-item">Annual implementation of sales budget by 150%;</li>
+                  </ul>
+                  <ul class="list">
+                  <li class="resp-item"> <span class="achive">Achievements:</span> Annual implementation of sales budget by 150%;</li>
+                  
                 </ul>
               </li>
-            </ul>
+              </ul>
           </div>
-          <div class="education">
-            <h2 class="education__title title">Education</h2>
+          <!-- EDUCATION -->
+          <div class="section--container">
+            <h2 class="section--title title">Education</h2>
             <ul class="list">
               <li class="place">
-                <p class="teach-name">IT School GoIT Academy</p>
-                <p class="teach-period">Jul, 2022 - present time, FullStack Developer course | Ukraine</p>
+                <p class="section--subtitle">IT School GoIT Academy</p>
+                <p class="section--text">Jul 2022 - present time <br>
+                   FullStack Developer course</p>
               </li>
               <li class="place">
-                <p class="teach-name">National Academy of Management</p>
-                <p class="teach-period">1997-2002, Master's Degree in Management | Ukraine</p>
-                <p class="teach-period">1997-2003, Master's Degree in Marketing | Ukraine</p>
+                <p class="section--subtitle">National Academy of Management</p>
+                <p class="section--text">1997-2002, Master's Degree in Management</p>
+                <p class="section--text">1997-2003, Master's Degree in Marketing</p>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <sidebar class="sidebar">
-        <div class="container">
-          <img class="svd" src="./img/IMG_7-min.jpeg" alt="Serhii Demchenko" />
+        <!-- Photo -->
+        <div class="photo-container">
+          <img class="svd" src="./img/IMG_4142.jpeg" alt="Serhii Demchenko" />
         </div>
-        <h2 class="contacts__title title">Contact Information</h2>
-        <ul class="contacts list">
+        <!-- CONTACTS -->
+        <div class="sidebar--container">
+          <h2 class="section--title title">Contact Information</h2>
+
+        <ul class=" list">
           <li class="contacts__item">
             <a href="380975722432" type="phone" target="_blank" class="contact__link link">+38 097 572 24 32</a>
           </li>
@@ -140,50 +165,53 @@
           </li>
           <li class="contacts__item">
             <a href="https://www.linkedin.com/in/serhii-v-demchenko" target="_blank" class="contact__link link"
-              >linkedin</a
+              >Linkedin</a
             >
           </li>
           <li class="contacts__item">
             <a href="https://github.com/svd-serhii" target="_blank" class="contact__link link">GitHub</a>
           </li>
           <li class="contacts__item">
-            <p class="contact__link link">Kyiv, Ukraine</p>
+            <p>Irpin, Ukraine</p>
           </li>
         </ul>
-        <div class="tech-skills">
-          <h2 class="tech-skills__title title">Tech Skills</h2>
-          <ul class="tech-skills__list list">
-            <li class="tech-skills__item">
-              <span class="item--text"
-                >HTML5/CSS3/SASS <br />
-                Responsive/Adaptive design GIT</span
-              >
-            </li>
-            <li class="tech-skills__item"><span class="item--text">JavaScript</span></li>
-            <li class="tech-skills__item"><span class="item--text">REST API</span></li>
-            <li class="tech-skills__item"><span class="item--text">Parcel</span></li>
+        </div>
+        
+        <!-- SKILLS -->
+        <div class="sidebar--container">
+          <h2 class="section--title title">Tech Skills</h2>
+          <ul class="sidebar--list list">
+            <li class="sidebar--list__item">JavaScript</li>
+            <li class="sidebar--list__item">React.js</li>
+            <li class="sidebar--list__item">Redux Toolkit</li>
+            <li class="sidebar--list__item">React Native</li>
+            <li class="sidebar--list__item">Ajax</li>
+            <li class="sidebar--list__item">Node.js</li>
+            <li class="sidebar--list__item">MongoDB</li>
+            <li class="sidebar--list__item">GitHub</li>
+            <li class="sidebar--list__item">Firebase</li>
+            <li class="sidebar--list__item">HTML5</li>
+            <li class="sidebar--list__item">CSS3/SASS</li>
           </ul>
         </div>
-        <div class="soft-skills">
-          <h2 class="soft-skills__title title">Soft Skills</h2>
-          <ul class="soft-skills__list list">
-            <li class="soft-skills__item"><span class="item--text">Positive attitude</span></li>
-            <li class="soft-skills__item"><span class="item--text">Multitasking</span></li>
-            <li class="soft-skills__item"><span class="item--text">Communicative skills</span></li>
-            <li class="soft-skills__item"><span class="item--text">Time management skills</span></li>
-            <li class="soft-skills__item"><span class="item--text">Willingness to learn</span></li>
-            <li class="soft-skills__item"><span class="item--text">Quick learning skills</span></li>
-            <li class="soft-skills__item">
-              <span class="item--text">Ability to work efficiently both individually and in a team</span>
+        <div class="sidebar--container">
+          <h2 class="section--title title">Soft Skills</h2>
+          <ul class="sidebar--list list">
+            <li class="sidebar--list__item">Multitasking</li>
+            <li class="sidebar--list__item">Communicative skills</li>
+            <li class="sidebar--list__item">Time management skills</li>
+            <li class="sidebar--list__item">Willingness to learn</li>
+            <li class="sidebar--list__item">
+              Ability to work efficiently both individually and in a team
             </li>
           </ul>
         </div>
-        <div class="language-skills">
-          <h2 class="language-skills__title title">Language Skills</h2>
-          <ul class="language-skills__list list">
-            <li class="language-skills__item"><span class="item--text">Ukrainian - native</span></li>
-            <li class="language-skills__item"><span class="item--text">Russian - native</span></li>
-            <li class="language-skills__item"><span class="item--text">English - intermediate</span></li>
+        <div class="sidebar--container">
+          <h2 class="section--title title">Language Skills</h2>
+          <ul class="sidebar--list list">
+            <li class="sidebar--list__item">Ukrainian - native</li>
+            <li class="sidebar--list__item">Russian - native</li>
+            <li class="sidebar--list__item">English - intermediate</li>
           </ul>
         </div>
       </sidebar>
